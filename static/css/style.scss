@@ -1,30 +1,7 @@
-// Primary Reset
-$poppins: 'Poppins', sans-serif;
-$roboto: 'Roboto', sans-serif;
+@import "settings";
+@import "section.css";
+@import "musicPlayer.css";
 
-$blue: #007bff;
-$indigo: #6610f2;
-$purple: #6f42c1;
-$pink: #e83e8c;
-$red: #dc3545;
-$orange: #fd7e14;
-$yellow: #ffc107;
-$green: #28a745;
-$teal: #20c997;
-$cyan: #17a2b8;
-$white: #fff;
-$gray: #6c757d;
-$gray-dark: #343a40;
-$primary: #007bff;
-$secondary: #6c757d;
-$success: #28a745;
-$info: #17a2b8;
-$warning: #ffc107;
-$danger: #dc3545;
-$light: #f8f9fa;
-$dark: #343a40;
-$darkerBlue: rgb(8, 25, 45);
-$darkBlue: rgb(10, 24, 61);
 *{
     margin: 0;
     padding: 0;
@@ -41,13 +18,6 @@ body{
     width: 100%;
     height: 100vh;
     background-color: $darkBlue;
-}
-
-section{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    gap: 10px;
 }
 
 .sideBar{
@@ -110,6 +80,8 @@ section{
             gap: 10px;
             cursor: pointer;
             transition: 0.3s;
+            -webkit-user-select: none;
+            -moz-user-select: none;
             user-select: none;
             &:active{
                 transform: scale(1.1);
@@ -200,10 +172,11 @@ section{
 
 .contentSec{
     width: 100%;
-    background: transparent;
     padding: 10px;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: visible;
+
+    position: relative;
     Message{
         display: flex;
         width: 100%;
@@ -326,14 +299,21 @@ section{
         }
     }
 
-    .separator{
+    .separator, .sep{
         width: 100%;
         height: 2px;
         background-color: #343a402d;
         margin: 10px 0;
+        pointer-events: none;
+
+        &.sep {
+            background-color: transparent !important;
+        }
     }
+
     .contentPart{
         height: 100vh;
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -455,6 +435,7 @@ section{
     }
        
 }
+
 @keyframes expand{
     from{
         width: 0;
