@@ -1,4 +1,8 @@
-const $ = (identifier) => document.querySelector(identifier)
+console.log("Audio Player Loaded")
+
+// const $_ = (identifier) => document.querySelector(identifier)
+
+let count = 1
 
 !function fetch_media() {
     const genre_lst = ["discover", "oldsongs"]
@@ -12,7 +16,7 @@ const $ = (identifier) => document.querySelector(identifier)
         })
         .then(data => data.json())
         .then(data => {
-            console.log(data)
+            console.log(data.videos.length)
 
             for (const videoData of data.videos) {
                 const video_id = videoData['id']
@@ -21,35 +25,22 @@ const $ = (identifier) => document.querySelector(identifier)
                 const vchannel = videoData['channel']
 
                 const contentsCode = `
-                    <div class="items" data-vid='${video_id}' onclick="loadMedia('${videoData['link']}')">
+                    <div class="items" data-vid='${video_id}' onclick="loadMedia(this, '${videoData['link']}')" data-id="${count}">
                     <img src="${thumnail[3].url}" alt="" loading='lazy'>
                     <br>
-                   <h3>${vtitle}</h3>
-                    <div class="introductions">
+                   <div class="introductions">
+                        <h3>${vtitle}</h3>
                         <p class="channel">
                             ${vchannel.name}
                         </p>
                     </div>
                     </div>
                 `
-
-                $(`.${genre} .contents`).innerHTML += contentsCode
+                count++
+                $_(`.${genre} .contents`).innerHTML += contentsCode
             }
+
+            document.body.setAttribute("data-total", count)
         })
     }
 }()
-
-let audio = new Audio()
-
-const loadMedia = (media_link) => {
-    fetch("/play_media", {
-        method: "POST", 
-        body: JSON.stringify({
-            videoLink: media_link
-        })
-    })
-    .then(data => data.json())
-    .then(data => {
-        
-    })
-}

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
     <script src="js/audio.player.js" type="module" defer></script>
+    <script src="js/audiomanager.js" defer></script>
     <title>Fantastic Music Player | v3.0.3</title>
 </head>
 <body class="debugmodeOn"> <!--class: debugmodeOn-->
@@ -143,14 +144,14 @@
                         </div>
     
                         <div class="mcontrols">
-                            <span class="material-icons arrow_back">
+                            <span class="material-icons arrow_back" onclick="playPrevious()">
                                 arrow_back
                             </span>
     
-                            <span class="material-icons playPauseMedia">
+                            <span class="material-icons playPauseMedia" onclick="playPausemethod()">
                                 play_arrow
                             </span>
-                            <span class="material-icons arrow_forward">
+                            <span class="material-icons arrow_forward" onclick="playNext()">
                                 arrow_forward
                             </span>
                         </div>
