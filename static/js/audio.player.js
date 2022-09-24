@@ -5,7 +5,7 @@ console.log("Audio Player Loaded")
 let count = 1
 
 !function fetch_media() {
-    const genre_lst = ["discover", "oldsongs"]
+    const genre_lst = ["discover", "oldsongs", "nepali_songs", "maithali_song"]
 
     for(const genre of genre_lst) {
         fetch('/get_media', {

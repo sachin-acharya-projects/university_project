@@ -8,7 +8,9 @@ from colorama import init, Fore; init(autoreset=True)
 url_fetcher = StreamURLFetcher()
 temp_genre = {
     "oldsongs": "https://www.youtube.com/playlist?list=PLIwuzph_6PZRg4XGLH0dl3aGNMDuQeogL",
-    "discover": "https://www.youtube.com/playlist?list=PLIwuzph_6PZR9SUJyDrOXzufQHIM72rR8"
+    "discover": "https://www.youtube.com/playlist?list=PLIwuzph_6PZR9SUJyDrOXzufQHIM72rR8",
+    "nepali_songs": "",
+    "maithali_song": ""
 }
 
 app = Flask(
