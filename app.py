@@ -9,8 +9,22 @@ url_fetcher = StreamURLFetcher()
 temp_genre = {
     "oldsongs": "https://www.youtube.com/playlist?list=PLIwuzph_6PZRg4XGLH0dl3aGNMDuQeogL",
     "discover": "https://www.youtube.com/playlist?list=PLIwuzph_6PZR9SUJyDrOXzufQHIM72rR8",
-    "nepali_songs": "",
-    "maithali_song": ""
+    "nepali_songs": "https://youtube.com/playlist?list=PLYv2ssKShZqmbpXSfkNLYOt8hYTmspDeT",
+    "maithali_song": "https://youtube.com/playlist?list=PLYv2ssKShZqlXySnqA71JURdIAuVlGjVR",
+    "purelok_song":"https://youtube.com/playlist?list=PLhFjSCJkUOMh2cuvM7dqBDiGs9XLCfmRq",
+    "best_dohori_song":"https://youtube.com/playlist?list=PLEabDaxwSYPB1ZOCML0Xat-VEslf8iV8K",
+    "yuvraaj_song":"https://youtube.com/playlist?list=PLhtYJigHJ5J_EtNu00Cs-nUgXrshDpBVU",
+    "tharu_song": "https://youtube.com/playlist?list=PLYv2ssKShZqnrGM52QXhQL6t5wv9Oo2h9",
+    "lok_dohori_song": "https://youtube.com/playlist?list=PLPGkwzfmb-J-xLhU8nHJ_HYmnevqoM3bS",
+    "apan_mithila_song": "https://youtube.com/playlist?list=PLYv2ssKShZql_LekhKtYW3UBapidqjriu",
+    "oldnepali":"https://youtube.com/playlist?list=PLYv2ssKShZqmjDn-x-ELsQSu3ovYiZiV2",
+    "maithili_cultural": "https://youtube.com/playlist?list=PLYv2ssKShZqkTv-vT0s4UnkoHMm95PFyw",
+    "jhijhiya_song": "https://youtube.com/playlist?list=PLYv2ssKShZqlUUMZn2sBHgzvHj-YvcqpZ",
+    "cultural_song":"https://youtube.com/playlist?list=PLYv2ssKShZqmOn4kiM5a_-WFS67buuvLh",
+    "Latest_song":"https://youtube.com/playlist?list=PLYv2ssKShZqlEx_u-7UqBoLJkG9GA1jOt",
+    "rap_song":"https://youtube.com/playlist?list=PLYv2ssKShZqlpVsqQDft4V_fRoO5EqI-s",
+    "maithili_rap_song":"https://youtube.com/playlist?list=PLYv2ssKShZqmpKMG15zTd6mfRuEZvlsYI",
+    "swapnil_song":"https://youtube.com/playlist?list=PLYv2ssKShZqlO1bBESK24nqI6l6gX6-cU"
 }
 
 app = Flask(

@@ -5,7 +5,7 @@ console.log("Audio Player Loaded")
 let count = 1
 
 !function fetch_media() {
-    const genre_lst = ["discover", "oldsongs", "nepali_songs", "maithali_song"]
+    const genre_lst = ["discover", "oldnepali","oldsongs", "nepali_songs", "maithali_song","purelok_song","best_dohori_song","yuvraaj_song","tharu_song","lok_dohori_song","apan_mithila_song","jhijhiya_song","cultural_song","Latest_song","rap_song","maithili_rap_song","swapnil_song","maithili_cultural"]
 
     for(const genre of genre_lst) {
         fetch('/get_media', {
