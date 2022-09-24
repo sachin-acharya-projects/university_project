@@ -277,8 +277,9 @@ body{
                     .titleArea{
                         color: rgba(255, 255, 255, 0.726);
                         font-weight: bold;
-                        max-width: 400px !important;
                         width: 100%;
+                        /*This is required*/
+                        max-width: 400px !important;
                         overflow: hidden;
                         white-space: nowrap;
                         text-overflow: ellipsis;

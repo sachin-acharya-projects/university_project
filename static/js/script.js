@@ -34,3 +34,40 @@ $_('.search_bar').addEventListener('keydown', (e) => {
         document.querySelector('.searchBtn').click()
     }
 })
+
+!function () {
+    fetch("/get_cat", {
+        method: "GET"
+    })
+    .then(data => data.json())
+    .then(data => {
+        let count = parseInt(data['length'])
+        delete data['length']
+        let keys = Object.keys(data)
+
+        let string_data = ""
+        for (let i = 0; i < count; i++) {
+            key = keys[i]
+            string_data += `
+                    <div class="${key}">
+                        <div class="heading">
+                            <p>${data[key].name}</p>
+                            <span class="pov">${data[key].description}</span>
+                        </div>
+                        <div class="contents">
+                            <!--
+                            Content will be loaded programatically
+                            -->
+                        </div>
+                        <div class="viewAll">
+                            View All
+                        </div>
+                    </div>
+                `
+            }
+            
+        string_data += `<div class="sep"></div>`
+
+        $_(".contentPart").innerHTML = string_data
+    })
+}()

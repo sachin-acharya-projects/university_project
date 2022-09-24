@@ -1,0 +1,88 @@
+{
+    "discover": {
+        "name": "Discover",
+        "description": "Discover new songs according to your preferences",
+        "url": "https://www.youtube.com/playlist?list=PLIwuzph_6PZR9SUJyDrOXzufQHIM72rR8"
+    },
+    "suggestions": {
+        "name": "Suggestions",
+        "description": "Get new songs suggested according to your prefered genre, artist etc.",
+        "url": "https://www.youtube.com/playlist?list=PLIwuzph_6PZRg4XGLH0dl3aGNMDuQeogL"
+    },
+    "latest_songs": {
+        "name": "Latest Songs",
+        "description": "Get latest and most popular songs",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqlEx_u-7UqBoLJkG9GA1jOt"
+    },
+    "nepali_songs": {
+        "name": "Nepal Songs",
+        "description": "Get latest and most popular Nepali Songs",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqmbpXSfkNLYOt8hYTmspDeT"
+    },
+    "maithali_song": {
+        "name": "Maithali Songs",
+        "description": "Get latest and most popular Maithali Songs",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqlXySnqA71JURdIAuVlGjVR"
+    },
+    "purelok_song": {
+        "name": "Pure Lok Songs",
+        "description": "Get latest and most popular Pure Lok Song",
+        "url": "https://youtube.com/playlist?list=PLhFjSCJkUOMh2cuvM7dqBDiGs9XLCfmRq"
+    },
+    "yuvraaj_song": {
+        "name": "Youvraaj Katwal's Song",
+        "description": "Get latest and most popular songs by Yuvraaj Katwal",
+        "url": "https://youtube.com/playlist?list=PLhtYJigHJ5J_EtNu00Cs-nUgXrshDpBVU"
+    },
+    "tharu_song": {
+        "name": "Tharu Song",
+        "description": "Get latest and most popular songs of genre Tharu",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqnrGM52QXhQL6t5wv9Oo2h9"
+    },
+    "lok_dohori_song": {
+        "name": "Lok Dohari Songs",
+        "description": "Get latest and most populr songs of genre Lok Dohori",
+        "url": "https://youtube.com/playlist?list=PLPGkwzfmb-J-xLhU8nHJ_HYmnevqoM3bS"
+    },
+    "apan_mithila_song": {
+        "name": "Apan Dham Maithali Song",
+        "description": "Get latest and popular Apan Mithila Dham Songs",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZql_LekhKtYW3UBapidqjriu"
+    },
+    "oldnepali": {
+        "name": "Old Nepali Songs",
+        "description": "Get old and most popular Nepali songs",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqmjDn-x-ELsQSu3ovYiZiV2"
+    },
+    "maithili_cultural": {
+        "name": "Maithali Cultural Song",
+        "description": "Get latest and most popular Maithili Cultural Songs",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqkTv-vT0s4UnkoHMm95PFyw"
+    },
+    "jhijhiya_song": {
+        "name": "Jhijhiya Songs",
+        "description": "Get latest and most popular songs of genre Jhijhiya",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqlUUMZn2sBHgzvHj-YvcqpZ"
+    },
+    "cultural_song": {
+        "name": "Cultural Song",
+        "description": "Get latest and most popular Cultural Songs",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqmOn4kiM5a_-WFS67buuvLh"
+    },
+    "rap_song": {
+        "name": "Nepali Rap Songs",
+        "description": "Gte latest and most popular Nepali of genre hiphop",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqlpVsqQDft4V_fRoO5EqI-s"
+    },
+    "maithili_rap_song": {
+        "name": "Maithali Rap Songs",
+        "description": "Get latest Maithali Songs of genre Hiphop",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqmpKMG15zTd6mfRuEZvlsYI"
+    },
+    "swapnil_song": {
+        "name": "Swapnil Sharma's Song",
+        "description": "Get latest and most popular songs by Swapnil Sharma",
+        "url": "https://youtube.com/playlist?list=PLYv2ssKShZqlO1bBESK24nqI6l6gX6-cU"
+    },
+    "length": "17"
+}
