@@ -15,7 +15,7 @@ const mediaChannel = $_(".master-player .music-info .aname")
 let currentCount = 1
 const audioPlayer = new Audio()
 
-// Loading Frirst Audio in the our list
+// Loading First Audio in the our list
 !function preload() {
 
 }()
